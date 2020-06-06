@@ -1,0 +1,54 @@
+Download Android SDK tools folder - https://androidsdkmanager.azurewebsit...
+
+
+
+PREREQUISITES
+ - Java installed on system
+ - JAVA_HOME is set in environment variables
+ command to check : java -version
+
+
+Step 1 : Download SDK tools
+ https://developer.android.com/studio
+
+----------------------------------------------------------------------------------
+Step 2 : Unzip folder & Extract platform tools
+----------------------------------------------------------------------------------
+Step 3 : Set environment variables
+ ANDROID_HOME = location of sdk folder
+ Path : append path of platform_tools folder
+----------------------------------------------------------------------------------
+Step 4 : Check command adb devices on command line
+----------------------------------------------------------------------------------
+Step 5 : Make device ready
+ - enable developer mode
+ - make USB Debugging on
+----------------------------------------------------------------------------------
+Step 6 : Connect device to computer system thorugh USB cable
+ - if asked enable USB Debbugging
+----------------------------------------------------------------------------------
+Step 7 : Run command adb devices
+  adb = android debug bridge
+ Check your device id displayed
+___________________________________________________________________________________________________________________________________________________________________
+ Step 8 : Download Appium (Appium server)
+   appium (http://appium.io/downloads.html)
+________________________________________________________________________________________________________________________________________________________________
+Step 9: Download Appium  Java Client: 
+
+ Go to this wedsite : http://appium.io/downloads.html ------> Download Java
+___________________________________________________________________________________________________________________________________________________________-
+
+Step 10: Selenium 
+
+Download Selenium java jar and Selenium standalone jar from maven repository
+
+
+____________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+                                               
